@@ -4,13 +4,13 @@
 # Cámbiala por otra cosa.
 # Elimina la primera.
 
-# cosas = ["Pizza", "Cine", "Leer", "Viajar", "Música"]
-# print("Lista de cosas que me gustan:", cosas)
-# print("Tercera cosa que me gusta:", cosas[2])
-# cosas[2] = "Jugar videojuegos"
-# print("Lista después de cambiar la tercera cosa:", cosas)
-# del cosas[0]
-# print("Lista después de eliminar la primera cosa:", cosas)
+cosas = ["Pizza", "Cine", "Leer", "Viajar", "Música"]
+print("Lista de cosas que me gustan:", cosas)
+print("Tercera cosa que me gusta:", cosas[2])
+cosas[2] = "Jugar videojuegos"
+print("Lista después de cambiar la tercera cosa:", cosas)
+del cosas[0]
+print("Lista después de eliminar la primera cosa:", cosas)
 
 # Diccionarios
 # Crea un diccionario con:
@@ -18,11 +18,11 @@
 # Cambia "moto" por el nombre de tu club.
 # Agrega una clave "activo" con el valor True.
 
-# Yo = {"nombre": "Diego", "edad": 33, "moto": "Br200"}
-# print("Diccionario original:", Yo)
-# Yo["moto"] = "TeamBr200"
-# Yo["activo"] = True
-# print("Diccionario actualizado:", Yo)
+Yo = {"nombre": "Diego", "edad": 33, "moto": "Br200"}
+print("Diccionario original:", Yo)
+Yo["moto"] = "TeamBr200"
+Yo["activo"] = True
+print("Diccionario actualizado:", Yo)
 
 # Sets
 # Crea un set con 3 cosas que odias.

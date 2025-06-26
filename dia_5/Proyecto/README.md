@@ -1,38 +1,36 @@
-# 🛠️ SIMULADOR DE VENTAS PARA TALLER MECÁNICO (PYTHON) <!-- # para título grande -->
+# 🛠️ Mini Proyecto – Simulador de Ventas de Repuestos
 
-**Autor:** Diego González <!-- **texto** para negritas -->
-**Versión:** 1.0.0  
+Este programa permite:
 
----
-
-## 📌 DESCRIPCIÓN <!-- ## para subtítulo -->
-Programa en Python para gestionar ventas de repuestos automotrices con:
-
-- **Catálogo interactivo** <!-- - para lista -->
-- **Cálculo de totales** 
-- **Aplicación de descuentos automáticos**
+✅ Mostrar productos y precios  
+✅ Permitir al usuario pedir hasta 3 productos  
+✅ Calcular el total según el precio y la cantidad  
+✅ Aplicar un descuento del 10% si el total supera los $30  
+✅ Mostrar un resumen final claro de la compra
 
 ---
 
-🔧 FUNCIONES PRINCIPALES
-| Función | Descripción | <!-- | para tablas -->
-|-----------------------|---------------------------------------------|
-| mostrar_productos() | Muestra el catálogo formateado |
-| calcular_total() | Suma subtotales con validación |
-| aplicar_descuento() | Aplica 10% si total > $30 |
+## 📦 Productos disponibles
 
-📝 EJEMPLO DE USO
-# Entrada de usuario (ejemplo)
-Producto #1: **bujía**  <!-- Negritas en texto de código -->
-Cantidad: 2
-Salida en consola:
-🧾 TOTAL: $7.00
-🎉 ¡Descuento aplicado! Total final: $6.30
+- Bujía: $3.5
+- Aceite: $6.0
+- Cadena: $12.0
+- Batería: $18.0
+- Pastillas de freno: $7.5
 
+---
 
-## 📂 ESTRUCTURA DE ARCHIVOS
-📦 proyecto/
-├── 📜 main.py # Programa principal
-├── 📜 utilidades.py # Funciones de negocio
-└── 📜 README.md # Este archivo
+## ⚙️ Funciones utilizadas
 
+- `mostrar_productos()`  
+- `calcular_total()`  
+- `aplicar_descuento()`
+
+---
+
+## ▶️ Cómo ejecutar el programa
+
+Desde la terminal, ubícate en la carpeta del proyecto y ejecuta:
+
+```bash
+python main.py

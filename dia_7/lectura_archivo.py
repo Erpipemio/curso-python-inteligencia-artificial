@@ -2,6 +2,7 @@ def cargar_productos_desde_archivo(nombre_archivo):
     productos = {}
     try:
         with open(nombre_archivo, "r") as archivo:
+            next(archivo)
             for linea in archivo:
                 nombre, precio = linea.strip().split(",")
                 productos[nombre] = float(precio)

@@ -11,7 +11,7 @@ def registrar_venta(producto, cantidad):
 
     total = productos[producto] * cantidad
 
-    with open(registro, "a") as archivo:
+    with open(registro, "a", encoding="utf-8") as archivo:
         archivo.write(f"Producto: {producto}\n")
         archivo.write(f"Cantidad: {cantidad}\n")
         archivo.write(f"Total: {total}\n")
@@ -21,6 +21,6 @@ def registrar_venta(producto, cantidad):
 
 
 # Prueba de venta
-producto = input("¿Qué producto vendiste?: ").strip().lower()
+producto_ingresado = input("¿Qué producto vendiste?: ").strip().lower()
 cantidad = int(input("¿Cuántos?: "))
-registrar_venta(producto, cantidad)
+registrar_venta(producto_ingresado, cantidad)

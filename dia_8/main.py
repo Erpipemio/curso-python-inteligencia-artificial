@@ -1,8 +1,9 @@
 from modules.productos import cargar_productos
 from modules.ventas import registrar_venta
+from config import ARCHIVO_PRODUCTOS, ARCHIVO_REGISTRO
 
-ARCHIVO_PRODUCTOS = "dia_8/data/archivo.txt"
-ARCHIVO_REGISTRO = "dia_8/data/registro.txt"
+productos = ARCHIVO_PRODUCTOS
+registro = ARCHIVO_REGISTRO
 
 productos = cargar_productos(ARCHIVO_PRODUCTOS)
 

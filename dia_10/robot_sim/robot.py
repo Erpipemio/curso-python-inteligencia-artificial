@@ -21,3 +21,10 @@ class Robot:
 
         self.posicion = (x, y)
         print(f"🤖 {self.nombre} se movió a {self.posicion}")
+
+    def recoger_objeto(self, objeto):
+        if objeto not in self.bolsa:
+            self.bolsa.append(objeto)
+            print(f"🤖 {self.nombre} recogió el objeto: {objeto}")
+        else:
+            print(f"🤖 {self.nombre} ya tiene el objeto: {objeto}")

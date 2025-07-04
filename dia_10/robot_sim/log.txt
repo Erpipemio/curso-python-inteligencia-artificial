@@ -1,0 +1,64 @@
+=== Simulación iniciada: 2025-07-03 22:10:40.478847 ===
+Mapa inicial:
+<class 'entorno.Entorno'>
+
+2025-07-03 22:10:40.480504 - DiegoBot se movió hacia norte
+Posición: (0, 0) | Bolsa: []
+Mapa actual:
+<class 'entorno.Entorno'>
+
+2025-07-03 22:10:40.481233 - DiegoBot no detectó nada.
+Posición: (0, 0) | Bolsa: []
+Mapa actual:
+<class 'entorno.Entorno'>
+
+2025-07-03 22:10:40.481689 - DiegoBot se movió hacia este
+Posición: (0, 0) | Bolsa: []
+Mapa actual:
+<class 'entorno.Entorno'>
+
+2025-07-03 22:10:40.482399 - DiegoBot no detectó nada.
+Posición: (0, 1) | Bolsa: []
+Mapa actual:
+<class 'entorno.Entorno'>
+
+2025-07-03 22:10:40.482849 - DiegoBot se movió hacia este
+Posición: (0, 1) | Bolsa: []
+Mapa actual:
+<class 'entorno.Entorno'>
+
+2025-07-03 22:10:40.483558 - DiegoBot no detectó nada.
+Posición: (0, 2) | Bolsa: []
+Mapa actual:
+<class 'entorno.Entorno'>
+
+2025-07-03 22:10:40.484079 - DiegoBot se movió hacia sur
+Posición: (0, 2) | Bolsa: []
+Mapa actual:
+<class 'entorno.Entorno'>
+
+2025-07-03 22:10:40.485069 - DiegoBot no detectó nada.
+Posición: (1, 2) | Bolsa: []
+Mapa actual:
+<class 'entorno.Entorno'>
+
+2025-07-03 22:10:40.485675 - DiegoBot se movió hacia oeste
+Posición: (1, 2) | Bolsa: []
+Mapa actual:
+<class 'entorno.Entorno'>
+
+2025-07-03 22:10:40.486752 - DiegoBot no detectó nada.
+Posición: (1, 1) | Bolsa: []
+Mapa actual:
+<class 'entorno.Entorno'>
+
+2025-07-03 22:10:40.487349 - DiegoBot se movió hacia norte
+Posición: (1, 1) | Bolsa: []
+Mapa actual:
+<class 'entorno.Entorno'>
+
+2025-07-03 22:10:40.488168 - DiegoBot no detectó nada.
+Posición: (0, 1) | Bolsa: []
+Mapa actual:
+<class 'entorno.Entorno'>
+

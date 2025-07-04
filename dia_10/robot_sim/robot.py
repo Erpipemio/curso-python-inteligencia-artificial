@@ -8,7 +8,7 @@ class Robot:
         self.nombre = nombre
         self.posicion = (0, 0)
         self.bolsa = []
-        self.log_file = "log.txt"
+        self.log_file = "dia_10/robot_sim/log.txt"
         self._init_log()
 
     def _init_log(self):

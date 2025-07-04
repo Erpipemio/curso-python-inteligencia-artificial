@@ -23,6 +23,15 @@ def main():
     entorno.colocar_objetos(objeto5)
     entorno.mostrar()
 
+    # Simulación de movimientos y detección
+    movimientos = ["norte", "este", "este", "sur", "oeste", "norte"]
+    for movimiento in movimientos:
+        robot.mover(movimiento)
+        objeto_detectado = robot.detectar(entorno)
+        if objeto_detectado:
+            robot.recoger_objeto(objeto_detectado)
+            entorno.mostrar()
+
 
 print("🚀 Simulación de Robot Iniciada")
 main()

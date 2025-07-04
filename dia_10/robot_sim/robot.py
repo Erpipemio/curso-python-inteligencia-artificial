@@ -1,3 +1,7 @@
+from entorno import Entorno
+from objetos import Objeto
+
+
 class Robot:
     def __init__(self, nombre):
         self.nombre = nombre
@@ -28,3 +32,20 @@ class Robot:
             print(f"🤖 {self.nombre} recogió el objeto: {objeto}")
         else:
             print(f"🤖 {self.nombre} ya tiene el objeto: {objeto}")
+
+    def detectar(self, entorno):
+        objeto = entorno.get_objeto(self.posicion)
+        if objeto:
+            print(f"🔍 {self.nombre} detectó un objeto: {objeto}")
+            return objeto
+        else:
+            print(f"🔍 {self.nombre} no detectó nada.")
+            return None
+
+
+def recolectar(self, objeto, entorno):
+    if objeto:
+        self.bolsa.append(objeto)
+        x, y = self.posicion
+        entorno.matriz[x][y] = None  # Se retira el objeto del entorno
+        print(f"✅ {self.nombre} recolectó: {objeto}")

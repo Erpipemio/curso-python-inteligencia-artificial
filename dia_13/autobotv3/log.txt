@@ -1,0 +1,49 @@
+=== Simulación iniciada: 2025-07-08 22:11:35.617770 ===
+Mapa inicial:
+<entorno.Entorno object at 0x00000256FDDA9BE0>
+
+2025-07-08 22:11:35.620060 - DiegoBot se movió a (1, 0) en dirección sur
+Posición: (1, 0) | Energia: 9.0 | Bolsa: []
+Mapa actual:
+None
+
+2025-07-08 22:11:35.622271 - DiegoBot detectó un objeto: Batería (Herramienta, 1.8kg)
+Posición: (1, 0) | Energia: 8.5 | Bolsa: []
+Mapa actual:
+None
+
+2025-07-08 22:11:35.625305 - DiegoBot recolectó: Batería (Herramienta, 1.8kg)
+Posición: (1, 0) | Energia: 6.5 | Bolsa: [Objeto(nombre='Batería', tipo='Herramienta', peso=1.8)]
+Mapa actual:
+None
+
+2025-07-08 22:11:35.631051 - DiegoBot se movió a (1, 1) en dirección este
+Posición: (1, 1) | Energia: 5.5 | Bolsa: [Objeto(nombre='Batería', tipo='Herramienta', peso=1.8)]
+Mapa actual:
+None
+
+2025-07-08 22:11:35.634318 - DiegoBot se movió a (1, 2) en dirección este
+Posición: (1, 2) | Energia: 4.5 | Bolsa: [Objeto(nombre='Batería', tipo='Herramienta', peso=1.8)]
+Mapa actual:
+None
+
+2025-07-08 22:11:35.637055 - DiegoBot se movió a (0, 2) en dirección norte
+Posición: (0, 2) | Energia: 3.5 | Bolsa: [Objeto(nombre='Batería', tipo='Herramienta', peso=1.8)]
+Mapa actual:
+None
+
+2025-07-08 22:11:35.639932 - DiegoBot detectó un objeto: Tornillo (Accesorio, 1.0kg)
+Posición: (0, 2) | Energia: 3.0 | Bolsa: [Objeto(nombre='Batería', tipo='Herramienta', peso=1.8)]
+Mapa actual:
+None
+
+2025-07-08 22:11:35.643019 - DiegoBot recolectó: Tornillo (Accesorio, 1.0kg)
+Posición: (0, 2) | Energia: 1.0 | Bolsa: [Objeto(nombre='Batería', tipo='Herramienta', peso=1.8), Objeto(nombre='Tornillo', tipo='Accesorio', peso=1.0)]
+Mapa actual:
+None
+
+2025-07-08 22:11:35.647075 - Resumen final de la bolsa
+Posición: (0, 2) | Energia: 1.0 | Bolsa: [Objeto(nombre='Batería', tipo='Herramienta', peso=1.8), Objeto(nombre='Tornillo', tipo='Accesorio', peso=1.0)]
+Mapa actual:
+None
+

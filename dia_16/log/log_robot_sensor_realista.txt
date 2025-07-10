@@ -1,0 +1,64 @@
+🚶 Movido a (1, 2) (norte) – Energía: 19
+🧱 Obstáculo detectado al oeste (1,1)
+✅ Recolectado 🔋 en (1,2) – Energía: 21
+🚶 Movido a (1, 3) (este) – Energía: 20
+👀 Objeto 💎 detectado al sur (2,3)
+🚶 Movido a (2, 3) (sur) – Energía: 19
+🧱 Obstáculo detectado al sur (3,3)
+👀 Objeto 💎 detectado al este (2,4)
+✅ Recolectado 💎 en (2,3) – Energía: 21
+🚶 Movido a (2, 4) (este) – Energía: 20
+🧱 Obstáculo detectado al sur (3,4)
+✅ Recolectado 💎 en (2,4) – Energía: 22
+🚶 Movido a (2, 3) (oeste) – Energía: 21
+🧱 Obstáculo detectado al sur (3,3)
+🚶 Movido a (2, 4) (este) – Energía: 20
+🧱 Obstáculo detectado al sur (3,4)
+🚶 Movido a (1, 4) (norte) – Energía: 19
+🧱 Obstáculo detectado al norte (0,4)
+🚶 Movido a (2, 4) (sur) – Energía: 18
+🧱 Obstáculo detectado al sur (3,4)
+🚶 Movido a (2, 3) (oeste) – Energía: 17
+🧱 Obstáculo detectado al sur (3,3)
+🚶 Movido a (1, 3) (norte) – Energía: 16
+🚶 Movido a (0, 3) (norte) – Energía: 15
+🧱 Obstáculo detectado al este (0,4)
+🚶 Movido a (1, 3) (sur) – Energía: 14
+🚶 Movido a (0, 3) (norte) – Energía: 13
+🧱 Obstáculo detectado al este (0,4)
+🚶 Movido a (1, 3) (sur) – Energía: 12
+🚶 Movido a (1, 2) (oeste) – Energía: 11
+🧱 Obstáculo detectado al oeste (1,1)
+🚶 Movido a (2, 2) (sur) – Energía: 10
+🚶 Movido a (3, 2) (sur) – Energía: 9
+🧱 Obstáculo detectado al este (3,3)
+🚶 Movido a (4, 2) (sur) – Energía: 8
+🚶 Movido a (4, 3) (este) – Energía: 7
+🧱 Obstáculo detectado al norte (3,3)
+🧱 Obstáculo detectado al este (4,4)
+🚶 Movido a (4, 2) (oeste) – Energía: 6
+🚶 Movido a (4, 1) (oeste) – Energía: 5
+👀 Objeto 💎 detectado al oeste (4,0)
+🚶 Movido a (4, 0) (oeste) – Energía: 4
+👀 Objeto 💎 detectado al norte (3,0)
+✅ Recolectado 💎 en (4,0) – Energía: 6
+🚶 Movido a (3, 0) (norte) – Energía: 5
+🧱 Obstáculo detectado al norte (2,0)
+✅ Recolectado 💎 en (3,0) – Energía: 7
+🚶 Movido a (4, 0) (sur) – Energía: 6
+🚶 Movido a (4, 1) (este) – Energía: 5
+🚶 Movido a (4, 2) (este) – Energía: 4
+🚶 Movido a (3, 2) (norte) – Energía: 3
+🧱 Obstáculo detectado al este (3,3)
+🚶 Movido a (3, 1) (oeste) – Energía: 2
+🚶 Movido a (2, 1) (norte) – Energía: 1
+🧱 Obstáculo detectado al norte (1,1)
+🧱 Obstáculo detectado al oeste (2,0)
+🚶 Movido a (3, 1) (sur) – Energía: 0
+
+--- RESUMEN FINAL ---
+Posición final: (3, 1)
+Energía restante: 0
+Celdas visitadas: 15
+Memoria: {'vacio': 11, 'objeto': 5, 'obstaculo': 6}
+Total registros en memoria: 22

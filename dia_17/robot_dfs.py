@@ -7,66 +7,116 @@ class RobotDFS:
         self.posicion = posicion
         self.energia = 30
         self.log = []
-        self.memoria = set()
-        self.obstaculos_memoria = set()
+        self.memoria = set()  # Todas las celdas visitadas
+        self.obstaculos_memoria = set()  # Celdas con obstáculos
         self.stack = []  # Para el backtracking (DFS)
+        self.objetos_recolectados = 0
 
     def mover(self, nueva_pos, entorno):
-
-        if (0 <= nueva_pos[0] < entorno.alto and
-            0 <= nueva_pos[1] < entorno.ancho and
-                entorno.matriz[nueva_pos[0]][nueva_pos[1]] != entorno.obstaculos):
-            self.posicion = nueva_pos
-            self.energia -= 1
-            self.memoria.add(nueva_pos)
+        """Intenta moverse a una nueva posición"""
+        # Verificar límites del entorno
+        if not (0 <= nueva_pos[0] < entorno.alto and 0 <= nueva_pos[1] < entorno.ancho):
             self.log.append(
-                f"🚶 Movido a {nueva_pos} – Energía: {self.energia}")
-            return True
-        else:
-            self.log.append(f"❌ Movimiento bloqueado a {nueva_pos}")
+                f"❌ Movimiento bloqueado a {nueva_pos} (fuera de límites)")
             return False
 
+        # Verificar obstáculos (tanto en memoria como en el entorno actual)
+        celda = entorno.matriz[nueva_pos[0]][nueva_pos[1]]
+        if celda == entorno.simbolo_obstaculo or nueva_pos in self.obstaculos_memoria:
+            self.obstaculos_memoria.add(nueva_pos)
+            self.log.append(
+                f"🧱 Movimiento bloqueado a {nueva_pos} (obstáculo)")
+            return False
+
+        # Movimiento válido
+        self.posicion = nueva_pos
+        self.energia -= 1
+        self.memoria.add(nueva_pos)
+        self.log.append(f"🚶 Movido a {nueva_pos} – Energía: {self.energia}")
+        return True
+
     def recolectar(self, entorno):
+        """Intenta recolectar un objeto en la posición actual"""
         x, y = self.posicion
         objeto = entorno.matriz[x][y]
-        if objeto and objeto != entorno.obstaculos:
-            entorno.matriz[x][y] = None
+
+        # Solo recolectar si es un objeto válido (no obstáculo, no vacío)
+        if objeto and objeto != entorno.simbolo_obstaculo and objeto in entorno.objetos_disponibles:
+            entorno.matriz[x][y] = None  # Eliminar objeto del entorno
             self.energia += 2
+            self.objetos_recolectados += 1
             self.log.append(
                 f"✅ Recolectado {objeto} en ({x},{y}) – Energía: {self.energia}")
+            return True
+        elif objeto == entorno.simbolo_obstaculo:
+            self.obstaculos_memoria.add((x, y))
+            self.log.append(
+                f"🧱 ¡No se puede recolectar el obstáculo en ({x},{y})!")
+        else:
+            self.log.append(f"⬜ No hay nada para recolectar en ({x},{y})")
+        return False
 
-    def vecinos(self, entorno, pos):
+    def vecinos_validos(self, entorno, pos):
+        """Obtiene vecinos no visitados y sin obstáculos"""
         x, y = pos
-        direcciones = [(-1, 0), (1, 0), (0, 1), (0, -1)]  # N, S, E, O
+        # Norte, Sur, Este, Oeste
+        direcciones = [(-1, 0), (1, 0), (0, 1), (0, -1)]
         vecinos = []
+
         for dx, dy in direcciones:
             nx, ny = x + dx, y + dy
-            if (0 <= nx < entorno.alto and 0 <= ny < entorno.ancho and
-                entorno.matriz[nx][ny] != entorno.obstaculos and
-                    (nx, ny) not in self.memoria):
-                vecinos.append((nx, ny))
+            nueva_pos = (nx, ny)
+
+            # Verificar que esté dentro del entorno
+            if not (0 <= nx < entorno.alto and 0 <= ny < entorno.ancho):
+                continue
+
+            # Evitar obstáculos (tanto conocidos como actuales)
+            if (entorno.matriz[nx][ny] == entorno.simbolo_obstaculo or
+                    nueva_pos in self.obstaculos_memoria):
+                continue
+
+            # Si no ha sido visitado o contiene un objeto
+            if nueva_pos not in self.memoria or entorno.matriz[nx][ny] in entorno.objetos_disponibles:
+                vecinos.append(nueva_pos)
+
         return vecinos
 
     def explorar_dfs(self, entorno):
+        """Exploración usando DFS con backtracking"""
         self.stack.append(self.posicion)
         self.memoria.add(self.posicion)
+
         while self.stack and self.energia > 0:
             actual = self.stack[-1]
             self.posicion = actual
-            self.recolectar(entorno)
-            vecinos_nuevos = self.vecinos(entorno, actual)
-            if vecinos_nuevos:
-                next_pos = random.choice(vecinos_nuevos)
-                self.stack.append(next_pos)
-                self.mover(next_pos, entorno)
+
+            # Intentar recolectar si hay objeto
+            if entorno.matriz[actual[0]][actual[1]] in entorno.objetos_disponibles:
+                self.recolectar(entorno)
+
+            # Obtener vecinos no visitados
+            vecinos = self.vecinos_validos(entorno, actual)
+
+            if vecinos:
+                # Elegir un vecino aleatorio (para exploración menos predecible)
+                siguiente = random.choice(vecinos)
+                self.stack.append(siguiente)
+                self.mover(siguiente, entorno)
             else:
-                self.stack.pop()  # Backtrack (retrocede)
+                # Backtrack (retroceder)
+                self.stack.pop()
+                if self.stack:  # Si aún hay lugares a los que volver
+                    self.mover(self.stack[-1], entorno)
 
     def resumen_final(self):
         self.log.append("\n--- RESUMEN FINAL ---")
         self.log.append(f"Posición final: {self.posicion}")
         self.log.append(f"Energía restante: {self.energia}")
         self.log.append(f"Celdas exploradas: {len(self.memoria)}")
+        self.log.append(
+            f"Obstáculos detectados: {len(self.obstaculos_memoria)}")
+        self.log.append(f"Objetos recolectados: {self.objetos_recolectados}")
         print("\n".join(self.log))
 
     def exportar_log(self, ruta):

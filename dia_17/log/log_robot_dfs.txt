@@ -1,43 +1,58 @@
-🚶 Movido a (2, 3) – Energía: 29
-✅ Recolectado 🔋 en (2,3) – Energía: 31
-🚶 Movido a (3, 3) – Energía: 30
-✅ Recolectado ⬛ en (3,3) – Energía: 32
-🚶 Movido a (3, 4) – Energía: 31
-✅ Recolectado ⬛ en (3,4) – Energía: 33
-🚶 Movido a (2, 4) – Energía: 32
-🚶 Movido a (1, 4) – Energía: 31
-✅ Recolectado ⬛ en (1,4) – Energía: 33
-🚶 Movido a (0, 4) – Energía: 32
-🚶 Movido a (0, 3) – Energía: 31
-✅ Recolectado ⬛ en (0,3) – Energía: 33
-🚶 Movido a (1, 3) – Energía: 32
-🚶 Movido a (1, 2) – Energía: 31
-🚶 Movido a (0, 2) – Energía: 30
-✅ Recolectado 💎 en (0,2) – Energía: 32
+✅ Recolectado 📦 en (2,2) – Energía: 32
+🚶 Movido a (2, 1) – Energía: 31
+✅ Recolectado 💎 en (2,1) – Energía: 33
+🚶 Movido a (1, 1) – Energía: 32
 🚶 Movido a (0, 1) – Energía: 31
-🚶 Movido a (0, 0) – Energía: 30
-🚶 Movido a (1, 0) – Energía: 29
-✅ Recolectado ⬛ en (1,0) – Energía: 31
-🚶 Movido a (1, 1) – Energía: 30
-🚶 Movido a (2, 1) – Energía: 29
-🚶 Movido a (3, 1) – Energía: 28
-🚶 Movido a (3, 2) – Energía: 27
-✅ Recolectado ⬛ en (3,2) – Energía: 29
-🚶 Movido a (4, 2) – Energía: 28
-✅ Recolectado ⚙️ en (4,2) – Energía: 30
-🚶 Movido a (4, 1) – Energía: 29
-✅ Recolectado ⬛ en (4,1) – Energía: 31
-🚶 Movido a (4, 0) – Energía: 30
-✅ Recolectado 📦 en (4,0) – Energía: 32
-🚶 Movido a (3, 0) – Energía: 31
-✅ Recolectado 🔋 en (3,0) – Energía: 33
-🚶 Movido a (2, 0) – Energía: 32
-🚶 Movido a (4, 3) – Energía: 31
-✅ Recolectado ⚙️ en (4,3) – Energía: 33
-🚶 Movido a (4, 4) – Energía: 32
-✅ Recolectado 🔋 en (4,4) – Energía: 34
+🚶 Movido a (0, 2) – Energía: 30
+🚶 Movido a (0, 3) – Energía: 29
+🚶 Movido a (1, 3) – Energía: 28
+🚶 Movido a (1, 2) – Energía: 27
+🚶 Movido a (1, 3) – Energía: 26
+🚶 Movido a (1, 4) – Energía: 25
+🚶 Movido a (0, 4) – Energía: 24
+✅ Recolectado 🔋 en (0,4) – Energía: 26
+🚶 Movido a (1, 4) – Energía: 25
+🚶 Movido a (2, 4) – Energía: 24
+🚶 Movido a (2, 3) – Energía: 23
+🚶 Movido a (3, 3) – Energía: 22
+🚶 Movido a (3, 4) – Energía: 21
+🚶 Movido a (4, 4) – Energía: 20
+🚶 Movido a (4, 3) – Energía: 19
+✅ Recolectado ⚙️ en (4,3) – Energía: 21
+🚶 Movido a (4, 2) – Energía: 20
+✅ Recolectado ⚙️ en (4,2) – Energía: 22
+🚶 Movido a (4, 1) – Energía: 21
+🚶 Movido a (4, 0) – Energía: 20
+🚶 Movido a (3, 0) – Energía: 19
+🚶 Movido a (3, 1) – Energía: 18
+🚶 Movido a (3, 2) – Energía: 17
+✅ Recolectado 🔧 en (3,2) – Energía: 19
+🚶 Movido a (3, 1) – Energía: 18
+🚶 Movido a (3, 0) – Energía: 17
+🚶 Movido a (2, 0) – Energía: 16
+✅ Recolectado 🔧 en (2,0) – Energía: 18
+🚶 Movido a (1, 0) – Energía: 17
+🚶 Movido a (0, 0) – Energía: 16
+🚶 Movido a (1, 0) – Energía: 15
+🚶 Movido a (2, 0) – Energía: 14
+🚶 Movido a (3, 0) – Energía: 13
+🚶 Movido a (4, 0) – Energía: 12
+🚶 Movido a (4, 1) – Energía: 11
+🚶 Movido a (4, 2) – Energía: 10
+🚶 Movido a (4, 3) – Energía: 9
+🚶 Movido a (4, 4) – Energía: 8
+🚶 Movido a (3, 4) – Energía: 7
+🚶 Movido a (3, 3) – Energía: 6
+🚶 Movido a (2, 3) – Energía: 5
+🚶 Movido a (2, 4) – Energía: 4
+🚶 Movido a (1, 4) – Energía: 3
+🚶 Movido a (1, 3) – Energía: 2
+🚶 Movido a (0, 3) – Energía: 1
+🚶 Movido a (0, 2) – Energía: 0
 
 --- RESUMEN FINAL ---
-Posición final: (2, 2)
-Energía restante: 34
+Posición final: (0, 2)
+Energía restante: 0
 Celdas exploradas: 25
+Obstáculos detectados: 0
+Objetos recolectados: 7

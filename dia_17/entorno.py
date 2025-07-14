@@ -7,7 +7,7 @@ class Entorno:
         self.alto = alto
         self.matriz = [[None for _ in range(ancho)] for _ in range(alto)]
         self.objetos_disponibles = ["💎", "🔋", "📦", "🔧", "⚙️"]
-        self.simbolo_obstaculo = ["⬛"]
+        self.simbolo_obstaculos = ["⬛"]
         self.repartir_objetos(cantidad_objetos)
         self.repartir_obstaculos(cantidad_obstaculos)
 
@@ -22,7 +22,7 @@ class Entorno:
 
         for _ in range(min(cantidad, len(disponibles))):
             x, y = disponibles.pop()
-            obstaculo = random.choice(self.simbolo_obstaculo)
+            obstaculo = random.choice(self.simbolo_obstaculos)
             self.matriz[x][y] = obstaculo
 
     def repartir_objetos(self, cantidad):

@@ -1,0 +1,6 @@
+nombre,precio
+bujia,3.5
+aceite,6.0
+cadena,12.0
+bateria,18.0
+pastillas de freno,7.5

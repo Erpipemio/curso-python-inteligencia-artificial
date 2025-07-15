@@ -1,0 +1,28 @@
+RobotCercano se movió a (0, 1) en dirección este
+RobotCercano se movió a (0, 2) en dirección este
+RobotCercano se movió a (0, 3) en dirección este
+RobotCercano se movió a (1, 3) en dirección sur
+RobotCercano detectó un objeto: Cable (Repuesto, 0.5kg)
+RobotCercano recolectó: Cable (Repuesto, 0.5kg)
+RobotCercano se movió a (1, 4) en dirección este
+RobotCercano detectó un objeto: Motor (Repuesto, 2.0kg)
+RobotCercano recolectó: Motor (Repuesto, 2.0kg)
+RobotCercano se movió a (1, 3) en dirección oeste
+RobotCercano se movió a (2, 3) en dirección sur
+RobotCercano se movió a (2, 2) en dirección oeste
+RobotCercano se movió a (3, 2) en dirección sur
+RobotCercano detectó un objeto: Tornillo (Accesorio, 1.0kg)
+RobotCercano recolectó: Tornillo (Accesorio, 1.0kg)
+RobotCercano se movió a (3, 1) en dirección oeste
+RobotCercano detectó un objeto: Sensor (Componente, 1.5kg)
+RobotCercano recolectó: Sensor (Componente, 1.5kg)
+RobotCercano se movió a (4, 1) en dirección sur
+RobotCercano detectó un objeto: Batería (Herramienta, 1.8kg)
+RobotCercano recolectó: Batería (Herramienta, 1.8kg)
+Resumen final de la bolsa
+
+📦 Resumen Final:
+Objetos recolectados: 5
+Valor total (peso acumulado): 6.8
+Pasos dados: 11
+Energía restante: 1.5

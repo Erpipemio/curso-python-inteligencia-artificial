@@ -1,0 +1,74 @@
+=== Simulación iniciada: 2025-07-04 22:45:30.231276 ===
+Mapa inicial:
+<class 'entorno.Entorno'>
+
+2025-07-04 22:45:30.233430 - DiegoBot se movió a (0, 0) energía restante: 9.0
+Posición: (0, 0) | Energia: 9.0 | Bolsa: []
+Mapa actual:
+<class 'entorno.Entorno'>
+
+2025-07-04 22:45:30.234387 - DiegoBot no detectó nada., energía restante: 8.5
+Posición: (0, 0) | Energia: 8.5 | Bolsa: []
+Mapa actual:
+<class 'entorno.Entorno'>
+
+2025-07-04 22:45:30.235328 - DiegoBot se movió a (0, 1) energía restante: 7.5
+Posición: (0, 1) | Energia: 7.5 | Bolsa: []
+Mapa actual:
+<class 'entorno.Entorno'>
+
+2025-07-04 22:45:30.236136 - DiegoBot detectó un objeto: Batería (Herramienta, 1kg)
+Posición: (0, 1) | Energia: 7.0 | Bolsa: []
+Mapa actual:
+<class 'entorno.Entorno'>
+
+2025-07-04 22:45:30.251196 - DiegoBot recolectó: Batería (Herramienta, 1kg)
+Posición: (0, 1) | Energia: 5.0 | Bolsa: [<objetos.Objeto object at 0x000001FFC8D86CF0>]
+Mapa actual:
+<class 'entorno.Entorno'>
+
+2025-07-04 22:45:30.251827 - DiegoBot se retiro el: Batería (Herramienta, 1kg) del entorno
+Posición: (0, 1) | Energia: 5.0 | Bolsa: [<objetos.Objeto object at 0x000001FFC8D86CF0>]
+Mapa actual:
+<class 'entorno.Entorno'>
+
+2025-07-04 22:45:30.253818 - DiegoBot se movió a (0, 2) energía restante: 4.0
+Posición: (0, 2) | Energia: 4.0 | Bolsa: [<objetos.Objeto object at 0x000001FFC8D86CF0>]
+Mapa actual:
+<class 'entorno.Entorno'>
+
+2025-07-04 22:45:30.254644 - DiegoBot no detectó nada., energía restante: 3.5
+Posición: (0, 2) | Energia: 3.5 | Bolsa: [<objetos.Objeto object at 0x000001FFC8D86CF0>]
+Mapa actual:
+<class 'entorno.Entorno'>
+
+2025-07-04 22:45:30.255272 - DiegoBot se movió a (1, 2) energía restante: 2.5
+Posición: (1, 2) | Energia: 2.5 | Bolsa: [<objetos.Objeto object at 0x000001FFC8D86CF0>]
+Mapa actual:
+<class 'entorno.Entorno'>
+
+2025-07-04 22:45:30.255988 - DiegoBot no detectó nada., energía restante: 2.0
+Posición: (1, 2) | Energia: 2.0 | Bolsa: [<objetos.Objeto object at 0x000001FFC8D86CF0>]
+Mapa actual:
+<class 'entorno.Entorno'>
+
+2025-07-04 22:45:30.256681 - DiegoBot se movió a (1, 1) energía restante: 1.0
+Posición: (1, 1) | Energia: 1.0 | Bolsa: [<objetos.Objeto object at 0x000001FFC8D86CF0>]
+Mapa actual:
+<class 'entorno.Entorno'>
+
+2025-07-04 22:45:30.257378 - DiegoBot no detectó nada., energía restante: 0.5
+Posición: (1, 1) | Energia: 0.5 | Bolsa: [<objetos.Objeto object at 0x000001FFC8D86CF0>]
+Mapa actual:
+<class 'entorno.Entorno'>
+
+2025-07-04 22:45:30.257952 - DiegoBot no tiene suficiente energía para esta acción.
+Posición: (1, 1) | Energia: 0.5 | Bolsa: [<objetos.Objeto object at 0x000001FFC8D86CF0>]
+Mapa actual:
+<class 'entorno.Entorno'>
+
+2025-07-04 22:45:30.258632 - DiegoBot no detectó nada., energía restante: 0.0
+Posición: (1, 1) | Energia: 0.0 | Bolsa: [<objetos.Objeto object at 0x000001FFC8D86CF0>]
+Mapa actual:
+<class 'entorno.Entorno'>
+

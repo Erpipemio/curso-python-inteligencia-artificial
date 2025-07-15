@@ -1,5 +1,0 @@
-bujía,3.5
-aceite,6.0
-cadena,12.0
-batería,18.0
-pastillas de freno,7.5

@@ -1,0 +1,8 @@
+🎉 ¡No quedan objetos alcanzables!
+
+=== RESUMEN FINAL ===
+Posición final: (0, 0)
+Energía restante: 30
+Celdas exploradas: 0
+Obstáculos detectados: 0
+Objetos recolectados: 0

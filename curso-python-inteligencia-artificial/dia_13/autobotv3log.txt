@@ -1,0 +1,99 @@
+=== Simulación iniciada: 2025-07-08 22:01:43.159681 ===
+Mapa inicial:
+<entorno.Entorno object at 0x0000019846FC9BE0>
+
+2025-07-08 22:01:43.161887 - DiegoBot detectó un objeto: Tornillo (Accesorio, 1.0kg)
+Posición: (0, 0) | Energia: 99.5 | Bolsa: []
+Mapa actual:
+None
+
+2025-07-08 22:01:43.164168 - DiegoBot recolectó: Tornillo (Accesorio, 1.0kg)
+Posición: (0, 0) | Energia: 97.5 | Bolsa: [Objeto(nombre='Tornillo', tipo='Accesorio', peso=1.0)]
+Mapa actual:
+None
+
+2025-07-08 22:01:43.168910 - DiegoBot se movió a (1, 0) en dirección sur
+Posición: (1, 0) | Energia: 96.5 | Bolsa: [Objeto(nombre='Tornillo', tipo='Accesorio', peso=1.0)]
+Mapa actual:
+None
+
+2025-07-08 22:01:43.171701 - DiegoBot se movió a (2, 0) en dirección sur
+Posición: (2, 0) | Energia: 95.5 | Bolsa: [Objeto(nombre='Tornillo', tipo='Accesorio', peso=1.0)]
+Mapa actual:
+None
+
+2025-07-08 22:01:43.174050 - DiegoBot detectó un objeto: Sensor (Componente, 1.5kg)
+Posición: (2, 0) | Energia: 95.0 | Bolsa: [Objeto(nombre='Tornillo', tipo='Accesorio', peso=1.0)]
+Mapa actual:
+None
+
+2025-07-08 22:01:43.177155 - DiegoBot recolectó: Sensor (Componente, 1.5kg)
+Posición: (2, 0) | Energia: 93.0 | Bolsa: [Objeto(nombre='Tornillo', tipo='Accesorio', peso=1.0), Objeto(nombre='Sensor', tipo='Componente', peso=1.5)]
+Mapa actual:
+None
+
+2025-07-08 22:01:43.181272 - DiegoBot se movió a (2, 1) en dirección este
+Posición: (2, 1) | Energia: 92.0 | Bolsa: [Objeto(nombre='Tornillo', tipo='Accesorio', peso=1.0), Objeto(nombre='Sensor', tipo='Componente', peso=1.5)]
+Mapa actual:
+None
+
+2025-07-08 22:01:43.184022 - DiegoBot se movió a (3, 1) en dirección sur
+Posición: (3, 1) | Energia: 91.0 | Bolsa: [Objeto(nombre='Tornillo', tipo='Accesorio', peso=1.0), Objeto(nombre='Sensor', tipo='Componente', peso=1.5)]
+Mapa actual:
+None
+
+2025-07-08 22:01:43.186714 - DiegoBot detectó un objeto: Motor (Repuesto, 2.0kg)
+Posición: (3, 1) | Energia: 90.5 | Bolsa: [Objeto(nombre='Tornillo', tipo='Accesorio', peso=1.0), Objeto(nombre='Sensor', tipo='Componente', peso=1.5)]
+Mapa actual:
+None
+
+2025-07-08 22:01:43.189640 - DiegoBot recolectó: Motor (Repuesto, 2.0kg)
+Posición: (3, 1) | Energia: 88.5 | Bolsa: [Objeto(nombre='Tornillo', tipo='Accesorio', peso=1.0), Objeto(nombre='Sensor', tipo='Componente', peso=1.5), Objeto(nombre='Motor', tipo='Repuesto', peso=2.0)]
+Mapa actual:
+None
+
+2025-07-08 22:01:43.194802 - DiegoBot se movió a (3, 2) en dirección este
+Posición: (3, 2) | Energia: 87.5 | Bolsa: [Objeto(nombre='Tornillo', tipo='Accesorio', peso=1.0), Objeto(nombre='Sensor', tipo='Componente', peso=1.5), Objeto(nombre='Motor', tipo='Repuesto', peso=2.0)]
+Mapa actual:
+None
+
+2025-07-08 22:01:43.197962 - DiegoBot se movió a (3, 3) en dirección este
+Posición: (3, 3) | Energia: 86.5 | Bolsa: [Objeto(nombre='Tornillo', tipo='Accesorio', peso=1.0), Objeto(nombre='Sensor', tipo='Componente', peso=1.5), Objeto(nombre='Motor', tipo='Repuesto', peso=2.0)]
+Mapa actual:
+None
+
+2025-07-08 22:01:43.200604 - DiegoBot se movió a (2, 3) en dirección norte
+Posición: (2, 3) | Energia: 85.5 | Bolsa: [Objeto(nombre='Tornillo', tipo='Accesorio', peso=1.0), Objeto(nombre='Sensor', tipo='Componente', peso=1.5), Objeto(nombre='Motor', tipo='Repuesto', peso=2.0)]
+Mapa actual:
+None
+
+2025-07-08 22:01:43.202883 - DiegoBot detectó un objeto: Cable (Repuesto, 0.5kg)
+Posición: (2, 3) | Energia: 85.0 | Bolsa: [Objeto(nombre='Tornillo', tipo='Accesorio', peso=1.0), Objeto(nombre='Sensor', tipo='Componente', peso=1.5), Objeto(nombre='Motor', tipo='Repuesto', peso=2.0)]
+Mapa actual:
+None
+
+2025-07-08 22:01:43.205680 - DiegoBot recolectó: Cable (Repuesto, 0.5kg)
+Posición: (2, 3) | Energia: 83.0 | Bolsa: [Objeto(nombre='Tornillo', tipo='Accesorio', peso=1.0), Objeto(nombre='Sensor', tipo='Componente', peso=1.5), Objeto(nombre='Motor', tipo='Repuesto', peso=2.0), Objeto(nombre='Cable', tipo='Repuesto', peso=0.5)]
+Mapa actual:
+None
+
+2025-07-08 22:01:43.211675 - DiegoBot se movió a (3, 3) en dirección sur
+Posición: (3, 3) | Energia: 82.0 | Bolsa: [Objeto(nombre='Tornillo', tipo='Accesorio', peso=1.0), Objeto(nombre='Sensor', tipo='Componente', peso=1.5), Objeto(nombre='Motor', tipo='Repuesto', peso=2.0), Objeto(nombre='Cable', tipo='Repuesto', peso=0.5)]
+Mapa actual:
+None
+
+2025-07-08 22:01:43.214559 - DiegoBot se movió a (4, 3) en dirección sur
+Posición: (4, 3) | Energia: 81.0 | Bolsa: [Objeto(nombre='Tornillo', tipo='Accesorio', peso=1.0), Objeto(nombre='Sensor', tipo='Componente', peso=1.5), Objeto(nombre='Motor', tipo='Repuesto', peso=2.0), Objeto(nombre='Cable', tipo='Repuesto', peso=0.5)]
+Mapa actual:
+None
+
+2025-07-08 22:01:43.217462 - DiegoBot detectó un objeto: Batería (Herramienta, 1.8kg)
+Posición: (4, 3) | Energia: 80.5 | Bolsa: [Objeto(nombre='Tornillo', tipo='Accesorio', peso=1.0), Objeto(nombre='Sensor', tipo='Componente', peso=1.5), Objeto(nombre='Motor', tipo='Repuesto', peso=2.0), Objeto(nombre='Cable', tipo='Repuesto', peso=0.5)]
+Mapa actual:
+None
+
+2025-07-08 22:01:43.220282 - DiegoBot recolectó: Batería (Herramienta, 1.8kg)
+Posición: (4, 3) | Energia: 78.5 | Bolsa: [Objeto(nombre='Tornillo', tipo='Accesorio', peso=1.0), Objeto(nombre='Sensor', tipo='Componente', peso=1.5), Objeto(nombre='Motor', tipo='Repuesto', peso=2.0), Objeto(nombre='Cable', tipo='Repuesto', peso=0.5), Objeto(nombre='Batería', tipo='Herramienta', peso=1.8)]
+Mapa actual:
+None
+

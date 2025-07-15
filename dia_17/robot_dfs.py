@@ -56,7 +56,7 @@ class RobotDFS:
             self.log.append(
                 f"✅ Recolectado {objeto} en ({x},{y}) – Energía: {self.energia}")
             return True
-        elif objeto in entorno.obstaculos:
+        elif objeto in entorno.simbolo_obstaculos:
             self.obstaculos_memoria.add((x, y))
             self.log.append(
                 f"🧱 ¡No se puede recolectar el obstáculo en ({x},{y})!")

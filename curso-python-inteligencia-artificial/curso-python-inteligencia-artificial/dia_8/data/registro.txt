@@ -1,0 +1,4 @@
+Producto: cadena
+Cantidad: 2
+Total: 24.0
+---
